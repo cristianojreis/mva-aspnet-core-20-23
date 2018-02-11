@@ -1,0 +1,9 @@
+@page
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Config
+
+<h1>Olá Cristiano Reis! Está é uma página Razor.</h1>
+
+<p>Agora é exatamente @DateTime.Now</p>
+
+<p>@Config["Mensagem"]</p>
